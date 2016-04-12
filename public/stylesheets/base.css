@@ -1,0 +1,77 @@
+﻿/* yui reset.css version;2.5.2 */
+html{color:#333;background:#fff;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline:none;}input,textarea,select{*font-size:100%;}legend{color:#333;}.clear{height:0;font-size:0;line-height:0;clear:both;}
+input,select{vertical-align:middle;}
+/* end of reset.css */
+
+body{
+font-size:14px;
+background:#fff;
+line-height:1.5;
+font-family:'微软雅黑',Tahoma,Arial,Helvetica, sans-serif;
+*font-family:'微软雅黑';
+color:#333;
+}
+a{text-decoration:none;color:#333;}
+a:hover{color:#ffa63c;}
+.clearfix{*zoom:1;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+.ui-text-12{ font-size:12px !important;}
+.ui-text-gray{ color:#888 !important;}
+.ui-text-red{ color:#ff694d !important;}
+.ui-text-green{ color:#019a01 !important;}
+
+.ui-mar-t34{ margin-top:34px;}
+
+/* sprite */
+.ui-header-home .ui-logo,.ui-logo-bottom{ background:url(../images/sprite.png) no-repeat;}
+
+
+
+/*--from now--*/
+
+.wrapper{width:950px;margin:0 auto;text-align:left;}
+
+
+
+
+
+/*首页样式*/
+.ui-header-home{ height:105px;}
+.ui-header-home .wrapper{ width:1240px;}
+.ui-header-home .ui-header-fl{  float:left; margin-right:100px;}
+.ui-header-home .ui-header-fl .ui-logo{ display:block; width:258px; height:82px; margin-top:19px; text-indent:-9999px;}
+.ui-header-home .ui-header-fr{ float:right;}
+.ui-header-home .ui-header-fr ul{ margin-top:25px;}
+.ui-header-home .ui-header-fr ul li{ float:left;  font-size:20px; }
+.ui-header-home .ui-header-fr ul li a{color:#367fa2; display:block;border-top:6px solid #22d5b8; padding:33px 30px 0 30px;}
+.ui-header-home .ui-header-fr ul li a:hover,.ui-header-home .ui-header-fr ul li.on a{ color:#22d5b8; border-color:#367fa2;}
+
+.ui-banner{ background:url(../images/banner.jpg) no-repeat top center; height:540px;}
+
+.ui-body-home{ }
+.ui-body-home .wrapper{ padding:30px 0;}
+.ui-body-home .wrapper .ui-company{ width:478px;}
+.ui-body-home .wrapper .ui-company h2{ color:#fff; font-size:18px; background:#22d5b8; border-radius:6px; display:inline-block; padding:10px 15px;}
+.ui-body-home .wrapper .ui-company p{ color:#367fa2; padding:36px 45px; text-decoration:underline;}
+.ui-body-home .wrapper .ui-company-pic img{ border:1px solid #22d5b8;}
+
+.ui-banner-b{ height:208px; background:#22d5b8;}
+.ui-banner-b .wrapper{ padding-top:40px; text-align:center;}
+
+.ui-address{ width:220px; height:217px; background:#e0ecec; margin-right:22px;}
+.ui-address p{ color:#367fa2; padding:24px 14px 0 14px; font-size:12px; line-height:24px;}
+.ui-address p a{ color:#367fa2;}
+.ui-ad{ margin-right:35px;}
+.ui-wechat h3{color:#367fa2; font-size:18px; margin-bottom:15px;}
+
+.ui-footer-home{ height:90px; background:#22d5b8; font-size:14px; color:#fff; line-height:90px;}
+.ui-footer-home .wrapper{ text-align:center; }
+.ui-logo-bottom{ display:inline-block; zoom:1; vertical-align:middle; width:188px; height:57px; background-position:-312px 0;}
+.ui-footer-home span{display:inline-block;zoom:1;  vertical-align:middle; padding-left:40px;}
+
+
+
